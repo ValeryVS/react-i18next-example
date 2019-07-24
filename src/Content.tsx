@@ -1,10 +1,10 @@
 import React from 'react';
-import {Trans} from 'react-i18next';
+import AppTrans from './AppTrans';
 
 const Content: React.FC = () => {
   return (
     <div>
-      <Trans
+      <AppTrans
         i18nKey={`content`}
         defaults='My content'
       />
